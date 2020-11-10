@@ -1,0 +1,160 @@
+
+*{
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+  
+  }
+  body html{
+  margin: 0px;
+  padding: 0px;
+  
+  }
+  .bg{
+  background: url("D:/Sys-Task/Assignment-01/images/BG.png");
+  background-size: cover;
+  height: 100vh;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  /* display: flex; */
+  }
+  .form-container{
+      
+    
+      padding: 25px;
+      border-radius: 25px;
+      border: 0.5px solid #eff1ec9d;
+      background-color:#eceae714;
+      position: absolute;
+      top: 28vh;
+      width: 80%;
+      margin-left: 60px;
+    
+     
+   
+  }
+   .form_logo img{
+  
+    margin: 0 110px 5px;
+    width:  40%;
+    vertical-align: middle;
+    border-style: none;
+  }
+  .form-container .form-group{
+    margin: 0 0 10px;
+    position: relative;
+  }
+  .form-container .form-control{
+    background-color:rgba(126, 120, 120, 0.281);
+    border-color: #fafafae6;
+      width:100%;
+      height: 40px;
+      border-radius: 8px;
+     margin-top: 15px;
+     margin-right: 15px;
+  }
+    .form-container .form-control::placeholder {
+      color: white;
+      font-size: 14px;
+    }
+   .form-container .btn{
+    
+      border-radius:8px;
+      height: 40px;
+      background-color: red;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 15px;
+      opacity: 0.9;
+    
+    }
+    .form-container .form-options{
+      margin: auto;
+      padding: 0;
+    
+      
+    }
+    .form-container .form-options li{
+           
+      list-style: none;
+      text-decoration: underline;
+    }
+    .form-container .form-options li a{
+      color: white;
+      margin: auto;
+      display: block;
+      text-decoration: underline;
+      margin-top: 10px;
+  
+    }
+    
+    .btn:hover {
+      opacity: 1;}
+  
+  
+        @media only screen and (max-width:450px){
+          .bg{
+            background-size: 800%;
+          }
+          .form-container{
+            width: 80%;
+          }
+        }
+  
+  
+  
+  #text1
+  {
+    background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
+    position: left;
+    padding-left: 40px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+  
+  }
+  #text2
+  {
+    background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+    position: left;
+    padding-left: 40px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+  
+  }
+  
+  
+  
+  
+  /* //////////////////////////////////////////////////////////////////////For SignUp page -->////////////////////////////////////////////////////////////////  */
+  
+    /* //////////////////////////////////////////////////////////////////////////////////For Otp page -->////////////////////////////////////////////////////// */
+  
+  
+  /* //////////////////////////////////////////////////////////////////////////////For reset-password page -->///////////////////////////////////////////////////// */
+  
+  
+  /* /////////////////////////////////////////////////////////////////////////////For  reset-password2 page -->///////////////////////////////////////////////// */
+  
+  
+  
+  
+    /* ///////////////////////////////////////////////////////////////////For login-page page -->/////////////////////////////////////////////////////////////////// */
+  
+    
+  /* /////////////////////////////////////////////////////////////////////////////For Otp2 page -->//////////////////////////////////////////////////////////// */
+  
+  
+  
+  /* ////////////////////////////////////////////////////////////////For reset-password3 page -->///////////////////////////////////////////////////////////////// */
+  
+  
+  /* /////////////////////////////////////////////////////////////////////For reset-password4 page -->////////////////////////////////////////////////////// */
+  
+  
+            
+  
+  /* /////////////////////////////////////////////////////////////////For SignUp2 page -->//////////////////////////////////////////////////////////////////////  */
+  
+  
